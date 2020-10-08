@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .cal{
+            margin: 0 auto;
+            width: 250px;
+            text-align: center;
+            padding: 10px;
+        }
+      .card{
+          border-radius: 8px;
+          margin: 0 auto;
+          font-size: 0;
+          text-align: center;
+          height: 380px;
+          width: 250px;
+          padding: 4px;
+          background-color: #219bec;
+          
+      }
+      .card:hover{
+        box-shadow: 3px 3px 3px 3px black ;
+      }
+      .input{
+          border-radius: 8px ;
+          border: 0px;
+          padding: 2px;
+          letter-spacing: 2px;
+          font-weight: bold;
+          font-size: 30px;
+          text-align: right;
+          height: 70px;
+          width: 244px;
+         background-color: whitesmoke;
+      }
+      .b{
+          color: white;
+          font-size: 15px;
+          font-weight: bold;
+          border: 0px;
+          height: 59px;
+          width: 62px;
+          background-color: #219bec;
+          border-radius: 8px;
+      }
+    .b:hover{
+        background-color: #5ebfff;
+       color: #000;
+    }
+    </style>
+</head>
+<div >
+      <div class="cal"><h1>Calculator</h1></div>
+       <div class="card">
+    <input  type="text" class="input">
+    <div>
+        <input type="submit" class="b" value="c">
+        <input type="submit" class="b" value="+/-">
+        <input type="submit" class="b" value="%">
+        <input type="submit" class="b" value="DEL">
+    </div>
+    <div>
+        <input type="submit" class="b" value="7">
+        <input type="submit" class="b" value="8">
+        <input type="submit" class="b" value="9">
+        <input type="submit" class="b" value="/">
+    </div>
+    <div>
+        <input type="submit" class="b" value="4">
+        <input type="submit" class="b" value="5">
+        <input type="submit" class="b" value="6">
+        <input type="submit" class="b" value="*">
+    </div>
+    <div>
+        <input type="submit" class="b" value="1">
+        <input type="submit" class="b" value="2">
+        <input type="submit" class="b" value="3">
+        <input type="submit" class="b" value="-">
+    </div>
+    <div>
+        <input type="submit" class="b" value="0">
+        <input type="submit" class="b" value=".">
+        <input type="submit" class="b" value="=">
+        <input type="submit" class="b" value="+">
+    </div>
+</div>
+    </div>
+</body>
+</html>
